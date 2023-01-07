@@ -14,7 +14,7 @@ print("\n\n\n\n\n\n\n\n\n\n\n\n\nGuess a number 1 through 100: ")
 
 
 def askNum():
-    """Asks the user for their guess, and checks the type of the input before handing it to the main function. """
+    """Asks the user for their guess, and checks the type of the input before handing it to the main function."""
     uGuesss = str(input())
     if uGuesss.isnumeric():
         uGuesss = int(uGuesss)
@@ -25,7 +25,7 @@ def askNum():
 
 
 def playGame():
-    """Runs the game itself, present for recursion"""
+    """Runs the game itself, present for recursion."""
     uGuess = askNum()
 
     if (uGuess < HIDDENNUM):
