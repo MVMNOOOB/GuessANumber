@@ -19,7 +19,7 @@ def askNum():
     if uGuesss.isnumeric():
         uGuesss = int(uGuesss)
     else:
-        print("that won't work")
+        print("\nThat won't work.")
         playGame()
     return uGuesss
 
